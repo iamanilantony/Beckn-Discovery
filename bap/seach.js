@@ -27,3 +27,23 @@ async function discoverBPPs(query) {
     return [];
   }
 }
+
+
+// Example usage
+const query = 'restaurants in Bangalore';
+discoverBPPs(query)
+  .then(bpps => {
+    console.log('Discovered BPPs:');
+    bpps.forEach(bpp => {
+      console.log(`Name: ${bpp.name}`);
+      console.log(`URL: ${bpp.url}`);
+      console.log('Catalog:');
+      bpp.catalog.forEach(product => {
+        console.log(`- ${product.name} (${product.price})`);
+      });
+      console.log('---');
+    });
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
