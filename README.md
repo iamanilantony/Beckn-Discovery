@@ -1,6 +1,8 @@
 # Beckn-Discovery
 
 
+![alt text](<Screenshot 2024-05-09 at 12.23.46 AM.png>)
+
 
 > ## Description
 > This proof of concept is to evaluate how search engines can be used to index Beckn websites and make them discoverable. It is an alternate model to a central registry-based mechanism.
