@@ -1,7 +1,7 @@
 # Beckn-Discovery
 
 
-![alt text](<Screenshot 2024-05-09 at 12.23.46 AM.png>)
+![alt text](<bpp-diagram.png.png>)
 
 
 > ## Description
