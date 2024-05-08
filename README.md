@@ -8,13 +8,13 @@
 > ## Goals
 > BPP
 > 
-> * [ ]  BPP to host a signed Beckn descriptor file on their domain issued by a certification authority.
+> * [ ]   BPP to host a signed Beckn descriptor file on their domain issued by a certification authority.
 > * [ ]   Search engines should be able to verify this descriptor and index their catalog.
 > * [ ]   BPPs should be able to push changes to their catalog incrementally to the search engine(s).
 > 
 > Bap
 > 
-> * [ ]  BAP can also host a signed Beckn descriptor file on their domain issued by a certification authority.
+> * [ ]   BAP can also host a signed Beckn descriptor file on their domain issued by a certification authority.
 > * [ ]   BAPs can discover Bpps and their products via search engines (like Beckn gateway)
 > * [ ]   BPPs should be able to verify Baps signatures using the BAP's Beckn descriptor.
 > 
