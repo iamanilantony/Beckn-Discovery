@@ -1,7 +1,7 @@
 # Beckn-Discovery
 
 
-![alt text](<bpp-diagram.png.png>)
+![alt text](<bpp-diagram.png>)
 
 
 > ## Description
