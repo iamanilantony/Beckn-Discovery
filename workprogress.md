@@ -3,7 +3,9 @@
 
 The gateway will receive the "/search" request from the BAP which will include details like domain and product name/description. Subsequently after receiving the request the gateway goes to the registry and does a **lookup** to find eligible BPPs for the specific transaction based on the current domain. After the list of BPPs is received back to the gateway. The gateway then fires individual "/search" request on these BPPs. For which each BPPs  will respond asynchronously back to the corresponding BAP and for finding the BAP url the BPPs come back to the registry and then fires a webhook to the "onSearch" request of the BAP. And then the rest of the flow continues.
 
-![[Pasted image 20240604020844.png]]
+
+![Pasted image 20240604020844](https://github.com/iamanilantony/Beckn-Discovery/assets/92921196/2689c4f7-72c0-41e8-9730-d5184fee9573)
+
 
 
 ## New Flow
@@ -16,7 +18,10 @@ And to keep the code with minimal from partner BAPs, we after receiving a reques
 
 
 
-![[Pasted image 20240604212441.png]]
+![Pasted image 20240604212441](https://github.com/iamanilantony/Beckn-Discovery/assets/92921196/8f5e3c78-188a-4cba-bcb4-5add6b37ebc2)
+
+
+
 
 
 
